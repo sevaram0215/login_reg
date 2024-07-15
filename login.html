@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="nav_image">
+       <img src="" alt="">
+      </div>
+      
+      <div id="h1_div"><h1>Rajasthan Univercity</h1></div>
+      <div id="ul_div">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div><span>&#9777;</span></div>
+    </nav>
+    <div id="scrool">
+     
+     
+
+    
+ 
+    
+    <div id="Form_table_div">
+        <div id="form_div">
+          <div><h1>login Form</h1></div>
+            <form id="form">
+          <label for="">Email id:-</label><br>
+          <input type="email" id="email" placeholder="enter your email"><br>
+          <label for=""> passward:-</label><br>
+          <input type="password" id="passward" placeholder="Enter your passward"><br>
+          
+    
+     
+          
+
+   
+            <button id="login" style="background-color: rgb(231, 246, 17); color: rgb(14, 13, 13);"><a href="login.html">login here</a></button>
+          </div>
+          <hr>
+          <p id="msg"></p>
+          <hr>
+          <span id="logo"></span>
+            </form>
+        </div>
+    
+
+    
+
+    <footer>
+      <div class="container">
+        <div class="row">
+         
+          
+          <div class="">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <h4>Follow Us</h4>
+            <ul>
+              <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class=" the_footer">
+            <h4>Newsletter</h4>
+            <p>Stay up to date with our latest news and offers</p>
+            <form>
+              <input type="email" placeholder="Enter your email address">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+          <div class="">
+            <p id="footer_p">&copy; 2023 Company Name. All rights                                                                                                                                                                                                                                                                          reserved.</p>
+          </div>
+        
+      </div>
+    </footer>
+  </body>
+  <script >
+    let btn=document.getElementById("login")
+    let logo=document.getElementById("logo")
+    let p=document.getElementById("msg")                                                                                                                                                                                          
+    let dataLogin=JSON.parse(localStorage.getItem("user"))
+    function loginUser(){
+        let userDeatils={
+            email:document.getElementById("email").value, 
+            password:document.getElementById("password").value,
+
+        }
+    }
+  
+
+  </script>
+</html>
